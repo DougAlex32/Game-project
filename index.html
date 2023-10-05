@@ -9,16 +9,26 @@
 <body>
     <div class="game">
         <h1>Hit the Character Game</h1>
-        <div id="character" class="character"></div>
-        <div id="target" class="character target"></div>
-        <div class="info">
-            <p>Score: <span id="score">0</span></p>
-            <p>Time Left: <span id="time-left">30</span> seconds</p>
+        <div class="instructions">
+            <p>Use arrow keys to move the character within the box.</p>
+            <p>Click on the red targets to score points.</p>
+            <p>You have 60 seconds to score 25 points to win.</p>
         </div>
-        <div id="result" class="result"></div>
+        <button id="start-button">Start Game</button>
+        <canvas id="game-canvas" width="800" height="400"></canvas>
+        <div id="score">Score: 0</div>
+        <div id="time-left">Time Left: 30</div>
+        <div id="result"></div>
     </div>
-    <canvas id="game-canvas" width="800" height="400"></canvas>
-    <script src="app.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
 
