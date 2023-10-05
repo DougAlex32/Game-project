@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Hit the Character Game</title>
+    <title>Hit the big GUY</title>
 </head>
 <body>
     <div class="game">
-        <h1>Hit the Character Game</h1>
+        <h1 class="game-title">Hit the big GUY</h1>
         <div class="instructions">
             <p>Use arrow keys to move the character within the box.</p>
             <p>Click on the red targets to score points.</p>
             <p>You have 60 seconds to score 25 points to win.</p>
         </div>
-        <button id="start-button">Start Game</button>
-        <canvas id="game-canvas" width="800" height="400"></canvas>
-        <div id="score">Score: 0</div>
-        <div id="time-left">Time Left: 30</div>
-        <div id="result"></div>
+        <button id="start-button" class="start-button">Start Game</button>
+        <canvas id="game-canvas" class="game-canvas" width="800" height="400"></canvas>
+        <div class="score">Score: <span id="score">0</span></div>
+        <div class="time-left">Time Left: <span id="time-left">60</span> seconds</div>
+        <div id="result" class="game-result"></div>
     </div>
     <script src="script.js"></script>
 </body>

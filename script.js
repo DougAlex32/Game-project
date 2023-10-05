@@ -33,6 +33,40 @@ document.addEventListener("DOMContentLoaded", () => {
         startTimer();
         gameLoop();
     }
+    function startTimer() {
+        timerInterval = setInterval(() => {
+            timeLeft--;
+            updateScore();
+            if (timeLeft <= 0 || score >= 25) {
+                clearInterval(timerInterval);
+                endGame();
+            }
+        }, 1000);
+    }
+
+    function endGame() {
+        isGameActive = false;
+        clearInterval(timerInterval); 
+        canvas.style.display = "none";
+        instructions.style.display = "block";
+        startButton.style.display = "block";
+        if (score >= 25) {
+            alert("You Win!");
+        } else {
+            alert("You Lose!");
+        }
+    }
+
+    function resetGame() {
+        score = 0;
+        timeLeft = 60;
+        characterX = canvas.width / 2;
+        characterY = canvas.height / 2;
+        moveTarget();
+        updateScore();
+    }
+
+
 
    
 
