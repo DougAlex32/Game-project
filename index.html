@@ -4,17 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Hit the big GUY</title>
+    <title>Lost City</title>
+    <style>
+        #game-canvas {
+            background-image: url('https://waterandpower.org/A%20Historic%20Photos%201/Hollywood_Night_1940s.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
 </head>
 <body>
     <div class="game">
-        <h1 class="game-title">Hit the big GUY</h1>
+        <h1 class="game-title">Lost City</h1>
         <div class="instructions">
-            <p>Use arrow keys to move the character within the box.</p>
-            <p>Click on the red targets to score points.</p>
-            <p>You have 60 seconds to score 25 points to win.</p>
+            <p>Use arrow keys to move the character within the city.</p>
+            <p>Don't get hit or cuaght you'll have to restart</p>
+            <p>You have 60 seconds to score 5 points to win.</p>
         </div>
-        <button id="start-button" class="start-button">Start Game</button>
+        <button id="start-button" class="start-button">Get Lost</button>
         <canvas id="game-canvas" class="game-canvas" width="800" height="400"></canvas>
         <div class="score">Score: <span id="score">0</span></div>
         <div class="time-left">Time Left: <span id="time-left">60</span> seconds</div>
