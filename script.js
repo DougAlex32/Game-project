@@ -5,7 +5,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const timeLeftElement = document.getElementById("time-left");
     const instructions = document.querySelector(".instructions");
     const startButton = document.getElementById("start-button");
-
+    const resetButton = document.getElementById("reset-button");
+resetButton.addEventListener("click", () => {
+    resetGame();
+    startGame(); // Start the game again
+});
     // Define the obstacles array
     const obstacles = [];
 
@@ -91,6 +95,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             ctx.fillStyle = "#e74c3c";
             ctx.fillRect(targetX, targetY, targetWidth, targetHeight);
+            ctx.drawImage(document.getElementById("house-img"), targetX, targetY, targetWidth, targetHeight);
 
             let obstacleCollision = false;
             // Check for collision with obstacles

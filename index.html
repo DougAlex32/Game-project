@@ -24,8 +24,11 @@
         </div>
         <button id="start-button" class="start-button">Get Lost</button>
         <canvas id="game-canvas" class="game-canvas" width="800" height="400"></canvas>
-        <div class="score">Score: <span id="score">0</span></div>
+        <img id="house-img" src="smallHouse.jpg" alt="Target Image" style="display: none;">
+        <img id="obstacle-image" src="skimask.png" style="display: none;" />
+         <div class="score">Score: <span id="score">0</span></div>
         <div class="time-left">Time Left: <span id="time-left">60</span> seconds</div>
+        <button class="reset-button" id="reset-button">Reset Game</button>
         <div id="result" class="game-result"></div>
     </div>
     <script src="script.js"></script>
