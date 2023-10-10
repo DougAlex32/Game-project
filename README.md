@@ -21,3 +21,10 @@ Its was based of the old school game Legend of Zelda (16 bit) where you try to f
 This was one of the toughest parts for figuring out my obstacles and how to make them render and how to make them work properly.
 ![code screenshot](<Screenshot 2023-10-08 202500.png>)
 This part of the code was a bit tricky trying to make sure that all your movement worked properly 
+
+### Unsloved Problems
+Sometimes when the game renders you get caught inside the obstacles and have to reset the game or sometimes in the game it can happpen as well while your chasing the target.
+
+## Stretch Goal
+Hopefully be able to render some characters and be able to move quicker and not have those few glitches.
+
