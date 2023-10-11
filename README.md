@@ -36,10 +36,15 @@ Hopefully be able to render some characters and be able to move quicker and not 
 
 ### Installation 
 Start with the User/ then cd into folder for this game.
+
 Once you're in your folder you'll go to github and "git clone"  https://github.com/DougAlex32/Lost_CIty.git
+
 Now that it's clone
+
 You can cd into the game.
+
 Using "code ." you can open up your vcode 
+
 Add using "index.html" will allow you to play the game locally.
 
 USE THIS LINK TO PLAY THE GAME ONLINE! https://dougalex32.github.io/Lost_CIty/
