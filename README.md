@@ -25,11 +25,14 @@ This was one of the toughest parts for figuring out my obstacles and how to make
 
 This part of the code was a bit tricky trying to make sure that all your movement worked properly 
 
+
 ### Unsloved Problems
 Sometimes when the game renders you get caught inside the obstacles and have to reset the game or sometimes in the game it can happpen as well while your chasing the target.
 
+
 ## Stretch Goal
 Hopefully be able to render some characters and be able to move quicker and not have those few glitches.
+
 
 ### Installation 
 Start with the User/ then cd into General Assembly the cd unit-1\deliverables\Game-project.
